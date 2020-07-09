@@ -1,0 +1,27 @@
+.view {
+    background: url("../assets/images/jq_canals.jpg")no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    &.li {
+        padding-left: 10px;
+        &:last-child {
+            padding-left: 10px;
+        }
+    }
+}
+
+.informationHolder {
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+#ContactLink {
+    outline: 2px solid white;
+}

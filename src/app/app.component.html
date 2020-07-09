@@ -1,0 +1,171 @@
+<header id="Home" class="h-100">
+    <mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar intro-fixed-nav" [containerInside]="false">
+        <div class="float left">
+            <mdb-navbar-brand>
+                <a pageScroll [pageScrollDuration]="500" class="logo navbar-brand" href="#Home">
+                  <strong>Francis Berti</strong>
+                </a>
+            </mdb-navbar-brand>
+        </div>
+        <links>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a pageScroll [pageScrollDuration]="500" class="nav-link" href="#AboutMe">About Me</a>
+                </li>
+                <li class="nav-item waves-light" mdbWavesEffect>
+                    <a pageScroll [pageScrollDuration]="500" class="nav-link" href="#Skills">Skills</a>
+                </li>
+                <li class="nav-item waves-light" mdbWavesEffect>
+                    <a pageScroll [pageScrollDuration]="500" class="nav-link" href="#Employment">Employment</a>
+                </li>
+                <li class="nav-item waves-light" mdbWavesEffect>
+                    <a pageScroll [pageScrollDuration]="500" class="nav-link" href="#Education">Education</a>
+                </li>
+                <li class="nav-item waves-light" mdbWavesEffect>
+                    <a pageScroll [pageScrollDuration]="500" class="nav-link" href="#Personal">Personal</a>
+                </li>
+                <li id="ContactLink" class="nav-item waves-light" mdbWavesEffect>
+                    <a pageScroll [pageScrollDuration]="500" class="nav-link" href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </links>
+    </mdb-navbar>
+    <!-- Main Introduction -->
+    <div class="view intro-2">
+        <div class="full-bg-img">
+            <div class="mask rgba-black-strong flex-center">
+                <div class="container text-center white-text wow fadeInUp">
+                    <h2>Hi.I'm Francis.</h2>
+                    <br>
+                    <h5>I'm a full stack developer based in Birmingham, UK.</h5>
+                    <p>Let me tell you about myself.</p>
+                    <br>
+                    <a pageScroll [pageScrollDuration]="500" id="NextButton" href="#AboutMe">
+                        <mdb-icon far icon="arrow-alt-circle-down" size="3x"></mdb-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.Main -->
+</header>
+  <!--Main Navigation-->
+
+<!--Main Layout-->
+<main class="text-center py-5">
+    <div class="container">
+
+        <div id="AboutMe" class="row informationHolder">
+            <div class="media col-md-4">
+                <img class="d-flex" src="../assets/images/jq_canals.jpg" alt="Generic placeholder image" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <h5 class="mt-0 font-weight-bold">About Me</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                    congue felis in faucibus.
+            </div>
+        </div>
+    
+        <div id="Skills" class="row informationHolder">
+            <div class="col-md-12">
+                <div class="media-body">
+                    <h5 class="mt-0 font-weight-bold">My Skills</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                    congue felis in faucibus.
+                </div>
+            </div>
+        </div>
+    
+        <div id="Employment" class="row informationHolder">
+            <div class="col-md-12">
+                <div class="media-body">
+                    <h5 class="mt-0 font-weight-bold">My Employment</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                    congue felis in faucibus.
+                </div>
+            </div>
+        </div>
+    
+        <div id="Education" class="row informationHolder">
+            <div class="col-md-12">
+                <div class="media-body">
+                    <h5 class="mt-0 font-weight-bold">My Education</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                    congue felis in faucibus.
+                </div>
+            </div>
+        </div>
+    
+        <div id="Personal" class="row informationHolder">
+            <div class="col-md-12">
+                <div class="media-body">
+                    <h5 class="mt-0 font-weight-bold">Me, Personally</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                    congue felis in faucibus.
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<!--Main Layout-->
+
+  <!-- Footer -->
+<footer id="Contact" class="page-footer font-small cyan darken-3">
+
+    <!-- Footer Elements -->
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-12 py-5">
+          <div class="mb-5 flex-center">
+
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <mdb-icon fab icon="facebook" size="2x" class="white-text mr-md-5 mr-3"></mdb-icon>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+                <mdb-icon fab icon="twitter" size="2x" class="white-text mr-md-5 mr-3"></mdb-icon>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+                <mdb-icon fab fab icon="google-plus" size="2x" class="white-text mr-md-5 mr-3"></mdb-icon>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+                <mdb-icon fab icon="linkedin" size="2x" class="white-text mr-md-5 mr-3"></mdb-icon>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+                <mdb-icon fab icon="instagram" size="2x" class="white-text mr-md-5 mr-3"></mdb-icon>
+            </a>
+            <!--Pinterest-->
+            <a class="pin-ic">
+                <mdb-icon fab icon="pinterest" size="2x" class="white-text mr-md-5 mr-3"></mdb-icon>
+            </a>
+          </div>
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
